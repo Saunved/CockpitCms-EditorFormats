@@ -29,7 +29,7 @@ When configuring a WYSIWYG field, cockpit already provides the possiblity to ext
 ## Installation
 
 1. Confirm that you have Cockpit CMS (Next branch) installed and working.
-2. Download zip and extract to 'your-cockpit-docroot/addons' (e.g. cockpitcms/addons/EditorFormats)
+2. Download zip and extract to 'your-cockpit-docroot/addons' (the extracted folder must be renamed to **"EditorFormats"** e.g. cockpitcms/addons/EditorFormats)
 3. Access module settings (http://your-cockpit-site/editor-formats) and confirm that page loads.
 
 ## Configuration
@@ -94,6 +94,8 @@ Edit your YYSIWYG fields and set the format:
 And when editing a collection that is using that field your editor should look like below:
 
 ![Advanced format example](https://monosnap.com/image/x5DKC3ypF2Ys4mAY35gQfh6EomO0fd.png)
+
+You can check out which plugins are mapped to which toolbar items in the TinyMCE 4.x docs [here](https://www.tiny.cloud/docs-4x/plugins/)
 
 ## Demo
 
